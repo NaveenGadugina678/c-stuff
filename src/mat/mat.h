@@ -8,7 +8,8 @@ typedef struct {
     float *data;
 } Mat;
 
-void mat_print(Mat m);
+void mat_func(Mat m, float f(void)); 
 void mat_mul(Mat c, Mat a, Mat b);
+void mat_print(Mat m);
 
 #endif // _MAT_H
