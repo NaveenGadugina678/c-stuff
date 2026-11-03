@@ -2,9 +2,9 @@
 
 ## Matrix Library  
 
-`src/mat`  
+path : `src/mat`    
 
-**example** : Matrix Multiplication   
+**example** : Matrix Printing   
 ```c
 #include "mat/mat.h"
 
